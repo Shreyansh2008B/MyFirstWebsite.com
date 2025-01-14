@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Youtube</title>
+   <link rel = "icon" href="Images/Star.png">
+ </head>
+ <body>
+  <header style="background-color: blueviolet;">
+    <img src = "Images/Youtube.png" ></big>
+    <h1> <span style="font-size: 100px; background-color: powderblue;"> Youtube</span></h1>
+    
+    <span style="font-size: 30px; background-color: black;">
+    <a href  = "">Home</a>
+    <a href  = "">About US</a>
+    <a href  = "">Contact Us</a>
+    <a href  = "">Products</a>
+    </span>
+    <button style="background-color: lightskyblue; font-size: 20px; color: white;">
+      Follow
+    </button>
+   
+    <p style="font-size: 20px;background-color: gold;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet necessitatibus saepe, id quisquam nisi nam tempora ex eaque sint odit! Aut mollitia possimus tempora. Ipsum velit numquam ut quam itaque!</p>
+    
+    <hr>
+   
+    
+    
+  </header>
+  
+  <main style="background-color: white;">
+    <h3>Check Out New Video:</h3>
+    <video controls autoplay loop>
+      <source src="Video/stock-footage-gameplay-of-d-fantasy-role-playing-video-game-featuring-female-character-fun-tactical-arcade-with.webm">
+    </video>
+    <h3> Video Audio Used:</h3>
+    <audio controls >
+      <source src="Music/neon-gaming-128925.mp3">
+    </audio>
+    <h1>Employees Needed</h1>
+    <table border="2"style="background-color: black;"> 
+      <tr align="Centre" style="background-color: palegreen;">
+        <th style="background-color: paleturquoise;"><big>Languages</big></th>
+        <th>JavaScript</th>
+        <th>Html</th>
+        <th>python</th>
+      </tr>
+      <tr align="Centre" style="background-color: palegreen;">
+        <th style="background-color: paleturquoise;"><big>Degree</big></th>
+        <th>Advanced</th>
+        <th>Basic</th>
+        <th>Advanced</th>
+      </tr>
+      <tr align="Centre" style="background-color: palegreen;">
+        <th style="background-color: paleturquoise;"><big>Seats Available</big></th>
+        <th>10</th>
+        <th>10</th>
+        <th>10</th>
+      </tr>
+    </table>
+    <h2>Games Videos Available</h2>
+    <ul>
+      <li>Action</li>
+      <ul>
+        <li>FreeFire</li>
+        <li>pubg</li>
+      </ul>
+      <li>Adventure</li>
+      <ul>
+        <li>Minecraft</li>
+        <li>palworld</li>
+        <li>Genshin Impact</li>
+
+      </ul>
+    </ul>
+    <!--Froms-->
+    <h1>Fill Below Details To Join:</h1>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+
+      <lable for = "UserName">UserName:</lable>
+      <input type="text" id = "UserName" minlength="6" maxlength="20" placeholder="UserName" required><br>
+      <label for = "password">Password:</label>
+      <input type="password" id = "password" placeholder="password"><br>
+      <label>Email:</label>
+      <input type="email" placeholder="Email"><br>
+      <label>Phone No.:</label>
+      <input type="tel"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone"><br>
+      <label for="Dob">DOB:</label>
+      <input type="date"><br>
+      <label>Select A Number:</label>
+      <input type="number" min =0 max =99><br>
+      <label>Gender:</label>
+      <label>Male</label>
+      <input type="radio" value="Male" name = "Gender">
+      <label>Female</label>
+      <input type="radio" value="Female" name = "Gender"><br>
+      <label>Select Language:</label>
+      <select>
+        <option value="JavaScript">JavaScript</option>
+        <option value="Html">Html</option>
+        <option value="Python">Python</option>
+      </select><br>
+      
+      <textarea rows = "10" placeholder="Write About Yourself 50 -100 words"></textarea><br>
+      <label>Attach Your Degree</label>
+      <input type="file" accept="image/png , image/jpeg"><br>
+      <label> I Agree Terms And Conditions</label>
+      <input type="checkbox"><br>
+      <input type="submit">
+      <input type="reset">
+    </form>
+   
+  </main>
+  <footer style="background-color: blueviolet;">
+    <hr>
+    <h2>Thanks For Visiting..</h2>
+    &copy; Copyright reserved <br>
+    <a href="mailto:Yotube@fake.com" target="_blank" title="Email Youtube">Email Us</a>
+  </footer>
+ </body>
+
+</html>
